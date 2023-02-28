@@ -1,0 +1,103 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+
+header {
+  text-align:center;
+}
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #eae2b7;
+}
+
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+article {
+  padding: 5px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  padding: 5px;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+
+hr {
+  border: 1px solid black;
+  margin-top:80px;
+  margin-bottom: 80px;
+}
+
+/* Add your solution below */
+
+.image-circle { 
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius:50%;
+  border-width: 2px;
+  border-color: #003049;
+  border-style: solid;
+
+}
+.header-links {
+ color:#d62828;
+padding: 5px;
+}
+
+.header-links:hover {
+  color: #f77f00;
+}
+
+.contact {
+  color:#d62828;
+
+}
+.contact:hover {
+  color:#f77f00;
+}
+
+.three-images p {
+  text-align: left;
+
+}
+
+.socials {
+  color:#d62828;
+
+}
+.socials:hover{
+  color:#f77f00
+}
+
+footer {
+  text-align: center;
+font-size: 12px
+}
